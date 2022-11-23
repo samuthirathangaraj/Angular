@@ -1,0 +1,25 @@
+<div style="text-align:center">
+  <h1><b>LIST OF ANIMALS</b></h1>
+  <select #id style= "width:20%" >
+      <option value=""selected disabled hidden>Choose One</option>
+          <option value="LION">LION</option>
+         
+          <option value="lion">lion</option>
+          <option value="TIGER">TIGER</option>
+          <option value="tiger">Tiger</option>
+           <option value="Tiger">tiger</option>
+
+  </select><br><br>
+  <button (click)="display(id.value)">SUBMIT</button><br><br><br><br>
+  <input #animals type="text">
+  <button (click)="search(animals.value)" style="width:50">SEARCH</button>
+  <pre>
+    <div style="text-align: center;">
+      <button><b> RESULT:</b>{{output}}</button>
+    </div>
+  </pre>
+  <div><img src="{{result}}"></div></div>
+  
+
+
+  

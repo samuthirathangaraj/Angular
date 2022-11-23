@@ -1,0 +1,14 @@
+.container
+{
+    background-image: url("https://wallpaperaccess.com/full/1255298.png");
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 1000px 1000px;
+    background-position: center;
+    background-size: 100%;
+    /* background-color:ghostwhite; */
+}
+.color
+{
+    color:black;
+}

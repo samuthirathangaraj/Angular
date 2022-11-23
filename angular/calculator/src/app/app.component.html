@@ -1,0 +1,30 @@
+
+<div class="calcaltor">
+number 1 : <input type="text" #num1/>
+<br>
+<br>
+number 2 : <input type="number" #num2/>
+<br>
+<button (click) = "add (num1.value, num2.value)"> ADD</button>
+<br>
+<br>
+<button (click) = "sub (num1.value, num2.value)"> SUB</button>
+<br>
+<br>
+<button (click) = "mul (num1.value,num2.value)"> MUL</button>
+<br>
+<br>
+<button (click) ="div (num1.value,num2.value)">DIV</button>
+<br>
+<br>
+result: {{result}} 
+
+<!--add:{{addresult}}
+<br>
+sub:{{subresult}}
+<br>
+mul:{{mulresult}}
+<br>
+div:{{divresult}}
+<br>-->
+</div>

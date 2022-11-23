@@ -1,0 +1,40 @@
+/*TAG SELECTOR*/
+body {
+    background-color:plum;
+}
+img:hover{
+    background-color: darkslategrey;
+}
+/*CLASS SELECTOR*/
+.button
+{
+    height:100;
+    width:100;
+}
+.sam {
+    color:seagreen;
+
+}
+.samu
+{
+    color:crimson
+}
+.details
+{
+    color:rgb(122, 50, 205);
+}
+.circular
+{
+    border-radius: 300%;
+}
+.changecolor
+{
+      
+      background-color: rgb(255, 220, 220);
+}
+/*id selector*/
+#title
+{
+    color: brown;
+}
+

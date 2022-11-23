@@ -1,0 +1,9 @@
+/* You can add global styles to this file, and also import other style files */
+html{
+    /* background-image: url(https://wallpaperaccess.com/full/84324.jpg); */
+    background-image:  url(https://cdn.pixabay.com/photo/2020/12/03/00/26/planets-5799077_960_720.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-top: auto;
+}
